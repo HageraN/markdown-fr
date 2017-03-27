@@ -1,4 +1,4 @@
-# Titles
+# Titres
 
 As we started writing a markdown document, we need to add a title and some sub-headers.
 
