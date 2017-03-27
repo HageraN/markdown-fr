@@ -1,10 +1,10 @@
-# Links
+# Liens
 
-Markdown supports two styles of links: inline and reference.
+Markdown prend en charge deux styles de liens: en ligne et de référence
 
-In both styles, the link text is delimited by [square brackets].
+Dans les deux styles, le texte du lien est délimité par des [crochets].
 
-To create an inline link, use a set of regular parentheses immediately after the link text’s closing square bracket. Inside the parentheses, put the URL where you want the link to point, along with an optional title for the link, surrounded in quotes. For example:
+Pour créer un lien en ligne, utilisez un ensemble de parenthèses régulières immédiatement après le crochet carré du texte du lien. À l'intérieur des parenthèses, placez l'URL où vous voulez que le lien pointe, ainsi qu'un titre facultatif pour le lien, entouré de guillemets. Par exemple:
 ```markdown
 [I'm an inline-style link](https://www.google.com)
 
@@ -20,36 +20,35 @@ Reference-style links use a second set of square brackets, inside which you plac
 This is [an example][id] reference-style link.
 ```
 
-You can optionally use a space to separate the sets of brackets:
+Vous pouvez éventuellement utiliser un espace pour séparer les ensembles de crochets:
 ```markdown
 This is [an example] [id] reference-style link.
 ```
 
-Then, anywhere in the document, you define your link label like this, on a line by itself:
+Ensuite, n'importe où dans le document, vous définissez votre étiquette de lien comme ceci, sur une ligne par elle-même:
 ```markdown
 [id]: http://example.com/  "Optional Title Here"
 ```
 
-**GitHub** and **GitBook** supports URL autolinking. They will autolink standard URLs, so if you want to link to a URL (instead of setting link text), you can simply enter the URL and it will be turned into a link to that URL.
-
+** GitHub ** et ** GitBook ** prend en charge l'autolinking d'URL. Ils vont autolink l'URL standard, donc si vous souhaitez lier à une URL (au lieu de définir le texte du lien), vous pouvez simplement entrer l'URL et il sera transformé en un lien vers cette URL.
 
 ---
 
-Here's a quiz about markdown links.
+Voici un quiz sur les liens de Markdown.
 
-Select the valid links:
+Sélectionnez les liens valides:
 - [x] `[a link](http://google.fr)`
 - [ ] `(a link)[http://google.fr]`
 
-> The link text is delimited by [square brackets].
+> Le texte du lien est délimité par [crochets].
 
-What are the correct informations from this link: ```[a link](http://google.fr "google")```
-- [ ] the link is https://google.fr
-- [x] the title of the link is "google"
-- [ ] it'll show the text "google"
-- [x] it'll show the text "a link"
+Quelles sont les informations correctes de ce lien: ```[a link](http://google.fr "google")```
+- [ ] Le lien est https://google.fr
+- [x] Le titre du lien est "google"
+- [ ] Il affichera le texte "google"
+- [x] Il affichera le texte "a link"
 
-> Links can have 3 parts: the text, the url and a title.
+> Les liens peuvent avoir 3 parties: le texte, l'url et un titre.
 
 ---
 
